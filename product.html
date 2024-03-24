@@ -1,0 +1,173 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="fake implementation of fatestoreapi">
+    <link rel="apple-touch-icon" href="/logo.png">
+    <title>ngshop</title>
+    <link href="/main.css" rel="stylesheet">
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div class="container mx-auto">
+            <nav>
+                <div class="max-w-7xl mx-auto pt-4 pb-6 px-4">
+                    <div class="relative flex items-center justify-between h-16">
+                        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden"><button
+                                class="inline-flex items-center justify-center p-2" id="headlessui-disclosure-button-2"
+                                type="button" aria-expanded="false"><span class="sr-only">Open main menu</span><svg
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                    stroke="currentColor" aria-hidden="true" class="block h-9 w-9">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16">
+                                    </path>
+                                </svg></button></div>
+                        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                            <div class="styles_logo"><a class="styles_link" href="/">
+                                    <div class="styles_logoBox">
+                                        <h1 class="styles_logoText">ngShop</h1>
+                                    </div>
+                                </a></div>
+                            <div class="hidden sm:block sm:ml-6"></div>
+                        </div>
+                        <div class="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                            <div class="ml-3 relative hidden sm:block">
+                                <div class="justify-content-center mx-auto text-center">
+                                    <div class="styles_menu">
+                                        <div><button class="styles_menuButton" id="headlessui-menu-button-1"
+                                                type="button" aria-haspopup="true" aria-expanded="false"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                    stroke-width="2" stroke="currentColor" aria-hidden="true"
+                                                    class="styles_userCircleIcon">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z">
+                                                    </path>
+                                                </svg>
+                                                <div class="flex flex-col">
+                                                    <div class="text-left"><strong>Login</strong></div>
+                                                    <div>or Sign Up</div>
+                                                </div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                                    fill="currentColor" aria-hidden="true"
+                                                    class="styles_chevronDownIcon">
+                                                    <path fill-rule="evenodd"
+                                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                        clip-rule="evenodd"></path>
+                                                </svg>
+                                            </button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ml-3 relative">
+                                <div class="justify-content-center mx-auto text-center">
+                                    <div class="styles_cartMenu"><a class="styles_cartButton"
+                                            href="/cart"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                                aria-hidden="true" class="styles_cartIcon">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z">
+                                                </path>
+                                            </svg>
+                                            <div class="flex flex-col self-center"></div>
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="bg-zinc-900/10 mx-auto h-[1.1px] shadow-sm shadow-zinc-900/10 px-12"></div>
+            <nav class="styles_categoryNav">
+                <div><a class="styles_categoryLink" href="/">
+                        <h1 class="truncate">All</h1>
+                    </a></div>
+                <div><a class="styles_categoryLink" href="/electronics">
+                        <h1 class="truncate">Electronics</h1>
+                    </a></div>
+                <div><a class="styles_categoryLink" href="/jewelery">
+                        <h1 class="truncate">Jewelery</h1>
+                    </a></div>
+                <div><a class="styles_categoryLink" href="/men's clothing">
+                        <h1 class="truncate">Men's Clothing</h1>
+                    </a></div>
+                <div><a class="styles_categoryLink" href="/women's clothing">
+                        <h1 class="truncate">Women's Clothing</h1>
+                    </a></div>
+            </nav>
+            <div class="bg-zinc-900/10 mx-auto h-[1px] shadow-sm shadow-zinc-900/10 px-12"></div>
+            <div class="container mx-auto">
+                <div class="flex flex-wrap max-w-7xl mx-auto my-4">
+                    <div class="w-full sm:w-2/2 md:w-2/2 xl:w-5/5 p-4 flex flex-wrap"><img alt="ecommerce"
+                            class="styles_image" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg">
+                        <div class="lg:w-2/3 w-full lg:pl-10 lg:py-6 my-auto">
+                            <h2 class="styles_brand">BRAND</h2>
+                            <h1 class="text-gray-900 text-2xl font-bold tracking-tight mb-1">Fjallraven - Foldsack No. 1
+                                Backpack, Fits 15 Laptops</h1>
+                            <div class="styles_rating" title="3.9"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                                    class="styles_starIcon">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                    </path>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    aria-hidden="true" class="styles_starIcon">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                    </path>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    aria-hidden="true" class="styles_starIcon">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                    </path>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    aria-hidden="true" class="styles_starIcon">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                    </path>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    aria-hidden="true" class="styles_emptyStarIcon">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                    </path>
+                                </svg>
+                                <p class="text-xs ml-1 font-light mt-0.5">(120)</p>
+                            </div>
+                            <p class="styles_productDetailText">Your perfect pack for everyday use and walks in
+                                the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</p>
+                            <div class="flex">
+                                <div class="my-auto"><span
+                                        class="font-extralight text-2xl inline-block align-middle mt-2 my-auto">$
+                                        109.95</span></div>
+                                <div class="block ml-auto my-auto mt-0">
+                                    <div class="styles_addToCart"><button
+                                            class="styles_addToCartButton"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                                fill="currentColor" aria-hidden="true"
+                                                class="styles_shoppingCartIcon">
+                                                <path
+                                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z">
+                                                </path>
+                                            </svg>
+                                            <div class="flex flex-col self-center"><span
+                                                    class="styles_buttonText">Add to Cart</span></div>
+                                        </button></div>
+                                </div>
+                                <div class="block my-auto"><button class="styles_favButton"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            aria-hidden="true" class="styles_heartIcon">
+                                            <path fill-rule="evenodd"
+                                                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

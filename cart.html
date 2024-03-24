@@ -1,0 +1,175 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="fake implementation of fatestoreapi">
+    <link rel="apple-touch-icon" href="/logo.png">
+    <title>ngShop</title>
+    <link href="/main.css" rel="stylesheet">
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div class="container mx-auto">
+            <nav>
+                <div class="max-w-7xl mx-auto pt-4 pb-6 px-4">
+                    <div class="relative flex items-center justify-between h-16">
+                        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden"><button
+                                class="inline-flex items-center justify-center p-2" id="headlessui-disclosure-button-2"
+                                type="button" aria-expanded="false"><span class="sr-only">Open main menu</span><svg
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                    stroke="currentColor" aria-hidden="true" class="block h-9 w-9">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16">
+                                    </path>
+                                </svg></button></div>
+                        <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                            <div class="styles_logo"><a class="styles_link" href="/">
+                                    <div class="styles_logoBox">
+                                        <h1 class="styles_logoText">NGSHOP</h1>
+                                    </div>
+                                </a></div>
+                            <div class="hidden sm:block sm:ml-6"></div>
+                        </div>
+                        <div class="inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                            <div class="ml-3 relative hidden sm:block">
+                                <div class="justify-content-center mx-auto text-center">
+                                    <div class="styles_menu">
+                                        <div><button class="styles_menuButton" id="headlessui-menu-button-1"
+                                                type="button" aria-haspopup="true" aria-expanded="false"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                    stroke-width="2" stroke="currentColor" aria-hidden="true"
+                                                    class="styles_userCircleIcon">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z">
+                                                    </path>
+                                                </svg>
+                                                <div class="flex flex-col">
+                                                    <div class="text-left"><strong>Login</strong></div>
+                                                    <div>or Sign Up</div>
+                                                </div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                                    fill="currentColor" aria-hidden="true"
+                                                    class="styles_chevronDownIcon">
+                                                    <path fill-rule="evenodd"
+                                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                        clip-rule="evenodd"></path>
+                                                </svg>
+                                            </button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ml-3 relative">
+                                <div class="justify-content-center mx-auto text-center">
+                                    <div class="styles_cartMenu"><a class="styles_cartButton"
+                                            href="/cart"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                                                aria-hidden="true" class="styles_cartIcon">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z">
+                                                </path>
+                                            </svg>
+                                            <div class="flex flex-col self-center"><span
+                                                    class="styles_cartCount">2</span></div>
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="bg-zinc-900/10 mx-auto h-[1.1px] shadow-sm shadow-zinc-900/10 px-12"></div>
+            <nav class="styles_categoryNav">
+                <div><a class="styles_categoryLink" href="/">
+                        <h1 class="truncate">All</h1>
+                    </a></div>
+                <div><a class="styles_categoryLink" href="/electronics">
+                        <h1 class="truncate">Electronics</h1>
+                    </a></div>
+                <div><a class="styles_categoryLink" href="/jewelery">
+                        <h1 class="truncate">Jewelery</h1>
+                    </a></div>
+                <div><a class="styles_categoryLink" href="/men's clothing">
+                        <h1 class="truncate">Men's Clothing</h1>
+                    </a></div>
+                <div><a class="styles_categoryLink" href="/women's clothing">
+                        <h1 class="truncate">Women's Clothing</h1>
+                    </a></div>
+            </nav>
+            <div class="bg-zinc-900/10 mx-auto h-[1px] shadow-sm shadow-zinc-900/10 px-12"></div>
+            <div class="container mx-auto">
+                <div>
+                    <div class="flex flex-wrap max-w-7xl mx-auto my-4">
+                        <div class="flex flex-col flex-1">
+                            <div class="w-full sm:w-2/2 md:w-2/2 xl:w-5/5 p-4 my-auto">
+                                <div class="styles_bgCart">
+                                    <div class="flex flex-row h-48"><img class="w-32 my-auto p-4 object-contain"
+                                            src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+                                            alt="Cart Item">
+                                        <div class="flex flex-col ml-2 mt-2"><a href="/product/2">
+                                                <h2
+                                                    class="text-sm title-font text-zinc-900 tracking-widest hover:text-blue-600 mt-2">
+                                                    Brand</h2>
+                                                <p class="font-extralight">Mens Casual Premium Slim Fit T-Shirts </p>
+                                            </a>
+                                            <p class="mt-auto mb-4 font-extralight text-xl">$ 22.3</p>
+                                        </div>
+                                        <div class="flex flex-row ml-auto"><button
+                                                class="w-5 h-5 ml-auto m-4 hover:text-red-500"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                    stroke-width="2" stroke="currentColor" aria-hidden="true">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16">
+                                                    </path>
+                                                </svg></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full sm:w-2/2 md:w-2/2 xl:w-5/5 p-4 my-auto">
+                                <div class="styles_bgCart">
+                                    <div class="flex flex-row h-48"><img class="w-32 my-auto p-4 object-contain"
+                                            src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                                            alt="Cart Item">
+                                        <div class="flex flex-col ml-2 mt-2"><a href="/product.html">
+                                                <h2
+                                                    class="text-sm title-font text-zinc-900 tracking-widest hover:text-blue-600 mt-2">
+                                                    Brand</h2>
+                                                <p class="font-extralight">Fjallraven - Foldsack No. 1 Backpack, Fits 15
+                                                    Laptops</p>
+                                            </a>
+                                            <p class="mt-auto mb-4 font-extralight text-xl">$ 109.95</p>
+                                        </div>
+                                        <div class="flex flex-row ml-auto"><button
+                                                class="w-5 h-5 ml-auto m-4 hover:text-red-500"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                    stroke-width="2" stroke="currentColor" aria-hidden="true">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16">
+                                                    </path>
+                                                </svg></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full h-full sm:w-2/2 md:w-2/2 xl:w-1/5 p-4">
+                            <div class="styles_bgCart">
+                                <div class="flex flex-col p-4"><span class="text-xl mb-4 font-semibold">Order
+                                        Summary</span><span class="text-sm my-2 font-extralight flex">Subtotal <span
+                                            class="ml-auto font-normal">$ 132.3</span></span><span
+                                        class="text-sm my-2 font-extralight flex">Shipping Estimate <span
+                                            class="ml-auto font-normal">$ 5</span></span><span
+                                        class="text-sm my-2 font-extralight flex">Tax Estimate <span
+                                            class="ml-auto font-normal">$ 5</span></span><span
+                                        class="text-md my-2 font-normal flex">Order Total <span class="ml-auto">$
+                                            142.3</span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
